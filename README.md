@@ -18,4 +18,13 @@ Each commit represents a step in the implementation process. Follow along by che
 
 We commit and push to remote after each step to maintain a clear history of the implementation process.
 
+## Interactive Approach
+
+Following the guidance in CLAUDE.md, we use an interactive quiz format before implementing any new step:
+1. Explain the purpose/reasoning behind the step
+2. Present multiple-choice questions with options
+3. Wait for user response before continuing
+4. Provide questions to ensure understanding
+5. Ask for confirmation before proceeding
+
 See [CLAUDE.md](./CLAUDE.md) for detailed guidance on the configuration and interaction patterns used in this project.
