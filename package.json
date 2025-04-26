@@ -8,10 +8,10 @@
     "test": "tests"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "node tests/index.test.js",
     "lint": "echo \"No linting configured yet\" && exit 0",
     "build": "echo \"No build step configured yet\" && exit 0",
-    "dev": "echo \"No dev server configured yet\" && exit 0"
+    "dev": "node src/index.js"
   },
   "repository": {
     "type": "git",

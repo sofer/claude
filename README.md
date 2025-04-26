@@ -6,11 +6,20 @@ This repository is a step-by-step implementation of the [Claude Code Best Practi
 
 - ✅ Initial repository setup
 - ✅ Project structure creation (src, tests, docs directories)
-- ⬜ Setting up package.json and basic configurations
-- ⬜ Implementing first example
+- ✅ Setting up package.json and basic configurations
+- ✅ Implementing first example
 - ⬜ Adding testing framework
 - ⬜ Demonstrating complex search patterns
 - ⬜ Showcasing interactive quiz format
+
+## Development Workflow
+
+For future implementations, we will follow the Test-Driven Development (TDD) approach:
+1. Write tests first
+2. Commit the tests
+3. Implement code to make tests pass
+4. Commit the implementation
+5. Refactor if needed
 
 ## How to Use This Repository
 
