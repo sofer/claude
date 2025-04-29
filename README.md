@@ -16,7 +16,7 @@ This project demonstrates building a command-line tool in Python that can:
 - ❌ ~~Setting up package.json and JavaScript configurations~~
 - ❌ ~~Implementing JavaScript example~~
 - ✅ Setting up Python environment and structure
-- ⬜ Adding pytest framework
+- ✅ Adding pytest framework
 - ⬜ Building basic CLI tool
 - ⬜ Demonstrating complex search patterns
 - ⬜ Showcasing interactive quiz format
