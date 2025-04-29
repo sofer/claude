@@ -15,7 +15,7 @@ This project demonstrates building a command-line tool in Python that can:
 - ✅ Project structure creation (directories)
 - ❌ ~~Setting up package.json and JavaScript configurations~~
 - ❌ ~~Implementing JavaScript example~~
-- ⬜ Setting up Python environment and structure
+- ✅ Setting up Python environment and structure
 - ⬜ Adding pytest framework
 - ⬜ Building basic CLI tool
 - ⬜ Demonstrating complex search patterns
