@@ -2,24 +2,39 @@
 
 This repository is a step-by-step implementation of the [Claude Code Best Practices](https://www.anthropic.com/engineering/claude-code-best-practices) guide by Anthropic.
 
+## Project Overview
+
+This project demonstrates building a command-line tool in Python that can:
+- Process CSV data efficiently
+- Leverage AI capabilities with Claude
+- Connect to external services when needed
+
 ## Current Progress
 
 - ✅ Initial repository setup
-- ✅ Project structure creation (src, tests, docs directories)
-- ✅ Setting up package.json and basic configurations
-- ✅ Implementing first example
-- ⬜ Adding testing framework
+- ✅ Project structure creation (directories)
+- ❌ ~~Setting up package.json and JavaScript configurations~~
+- ❌ ~~Implementing JavaScript example~~
+- ⬜ Setting up Python environment and structure
+- ⬜ Adding pytest framework
+- ⬜ Building basic CLI tool
 - ⬜ Demonstrating complex search patterns
 - ⬜ Showcasing interactive quiz format
 
-## Development Workflow
+## Python Development Workflow
 
-For future implementations, we will follow the Test-Driven Development (TDD) approach:
-1. Write tests first
+For our Python implementation, we will follow the Test-Driven Development (TDD) approach:
+1. Write tests first using pytest
 2. Commit the tests
 3. Implement code to make tests pass
 4. Commit the implementation
 5. Refactor if needed
+
+We'll organize our code following Python best practices:
+- Use virtual environments to manage dependencies
+- Structure code as a proper Python package
+- Use type hints for better documentation
+- Follow PEP 8 style guidelines
 
 ## How to Use This Repository
 

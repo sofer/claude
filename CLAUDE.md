@@ -27,9 +27,10 @@ This project follows the Claude Code best practices as outlined in Anthropic's e
   5. Ask for confirmation before proceeding
 
 ## Useful Commands
-- `npm run test`: Run test suite
-- `npm run lint`: Run linting checks
-- `npm run build`: Build the project
+- `pytest`: Run test suite
+- `flake8`: Run linting checks
+- `mypy`: Check type hints
+- `python -m src.claude_cli`: Run the CLI tool
 
 ## Optimization Strategies
 - Be specific in instructions
