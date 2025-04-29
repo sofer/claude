@@ -12,6 +12,8 @@ This project follows the Claude Code best practices as outlined in Anthropic's e
 - Follow test-driven development where possible
 - Use descriptive commit messages
 - Document code changes thoroughly
+- Include README updates in the same commit as related code changes
+- Commit and push after each significant step
 
 ## Tool Usage Instructions
 - **GitHub CLI**: Use `gh` commands for all GitHub operations
@@ -30,7 +32,7 @@ This project follows the Claude Code best practices as outlined in Anthropic's e
 - `pytest`: Run test suite
 - `flake8`: Run linting checks
 - `mypy`: Check type hints
-- `python -m src.claude_cli`: Run the CLI tool
+- `python -m src.cli`: Run the CLI tool
 
 ## Optimization Strategies
 - Be specific in instructions
