@@ -9,6 +9,18 @@ This project demonstrates building a command-line tool in Python that can:
 - Leverage AI capabilities with Claude
 - Connect to external services when needed
 
+## Repository Structure
+
+This repository contains several key files:
+
+- **README.md** (this file): Information about what this repository does and how to use it
+- **[CLAUDE.md](./CLAUDE.md)**: Configuration instructions for Claude when working in this repository
+- **[CURRICULUM.md](./CURRICULUM.md)**: The content of what to learn - modules, lessons, and objectives
+- **[PEDAGOGY.md](./PEDAGOGY.md)**: How the curriculum should be taught - question formats, feedback approach, and teaching methodology
+- **[LANGUAGE.md](./LANGUAGE.md)**: Programming language specifications, coding standards, and useful commands
+
+You can use this repository both to complete the curriculum yourself or extract the teaching materials (CURRICULUM.md and PEDAGOGY.md) for use in other contexts.
+
 ## Current Progress
 
 - ✅ Initial repository setup
