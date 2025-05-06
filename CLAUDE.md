@@ -2,10 +2,13 @@
 
 > **Purpose**: This file instructs Claude on how to behave when working in this repository. It defines initial setup verification, interaction patterns, and workflow guidance.
 
+This repository is a step-by-step implementation of the [Claude Code Best Practices](https://www.anthropic.com/engineering/claude-code-best-practices) guide by Anthropic.
+
 ## Initial Setup Verification
 
 When starting a session, check for the existence of these essential files:
 - `README.md`: Repository overview
+- `PROJECT.md`: Project-specific details
 - `CURRICULUM.md`: Learning content
 - `PEDAGOGY.md`: Teaching methodology
 - `LANGUAGE.md`: Programming language specifications
