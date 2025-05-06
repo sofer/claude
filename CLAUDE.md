@@ -1,67 +1,69 @@
-# Claude Code Configuration
+# Claude Code Project Initialization
 
-> **Purpose**: This file instructs Claude on how to behave when working in this repository. It defines initial setup verification, interaction patterns, and workflow guidance.
+This file guides Claude on how to start a new project with the user, focusing on discovery, learning, and incremental development.
 
-This repository is a step-by-step implementation of the [Claude Code Best Practices](https://www.anthropic.com/engineering/claude-code-best-practices) guide by Anthropic.
+## Project Discovery
 
-## Initial Setup Verification
+When starting a new project or session, first determine:
 
-When starting a session, check for the existence of these essential files:
-- `README.md`: Repository overview
-- `PROJECT.md`: Project-specific details
-- `CURRICULUM.md`: Learning content
-- `PEDAGOGY.md`: Teaching methodology
-- `LANGUAGE.md`: Programming language specifications
+1. **Project Goal**: What does the user want to build?
+   - Ask for a high-level description
+   - Clarify scope, intended audience, and key features
+   - Identify opportunities for incremental development
 
-If any are missing, prompt the user:
-```
-I notice [file] is missing. This file is important because [reason].
-Would you like me to create it for you? (yes/no)
-```
+2. **Learning Objectives**: What does the user want to learn?
+   - Technical skills (languages, frameworks, tools)
+   - Engineering best practices
+   - Design patterns or architecture principles
+   - Suggest referencing the [Claude Code Best Practices](https://www.anthropic.com/engineering/claude-code-best-practices) guide if appropriate
 
-## Curriculum Navigation
+3. **Preferred Learning Style**:
+   - Interactive teaching with explanations and questions
+   - Demonstration through code with commentary
+   - Challenge-based learning
+   - Hands-on experimentation with guidance
 
-When the user wants to work through the curriculum:
+4. **Technology Preferences**:
+   - Programming languages
+   - Frameworks and libraries
+   - Development tools and environment
+   - Testing approaches
 
-1. First determine their current position by asking which module/lesson they're on
-2. Reference the corresponding section in CURRICULUM.md
-3. Apply the teaching methods from PEDAGOGY.md
-4. Track progress by checking off completed items
-5. Conclude each lesson with a summary and suggested next steps
+## Implementation Workflow
 
-## Interaction Patterns
+For each implementation step:
 
-- **Interactive Quiz Format**: When explaining new concepts:
-  1. Explain the purpose/reasoning behind the concept
-  2. Present multiple-choice questions with 4 options (including plausible distractors)
-  3. Wait for user response before continuing
-  4. Provide 3 questions per key concept to ensure understanding
-  5. Ask for confirmation before proceeding
+1. **Explain First**: Before writing any code, explain the approach and reasoning
+2. **Implement Incrementally**: Build in small, testable pieces
+3. **Test as You Go**: Write tests alongside implementation when appropriate
+4. **Commit Regularly**: Make atomic commits with descriptive messages after each logical step
+5. **Review and Reflect**: Pause occasionally to review progress and learning
 
-- **Code Implementation**: When writing or modifying code:
-  1. Follow test-driven development where possible
-  2. Include README updates in the same commit as related code changes
-  3. Commit and push after each significant step
+## Commit Practices
 
-## Tool Usage Instructions
+Maintain a clean, meaningful history:
 
-- **GitHub CLI**: Use `gh` commands for all GitHub operations
-- **Bash**: Prefer using absolute paths over relative paths
-- **Search**: Use the Agent tool for complex searches across the codebase
+1. Make small, focused commits that represent single logical changes
+2. Write clear commit messages that explain both what changed and why
+3. Include README updates in the same commit as related code changes
+4. Add co-authored-by attribution for Claude
 
-## Language and Tools
+## Collaboration Guidance
 
-Refer to [LANGUAGE.md](./LANGUAGE.md) for:
-- Programming language specifications
-- Coding standards and project structure
-- Development environment setup
-- Useful commands for testing and development
-- Third-party library information
-
-## Help and Guidance
-
-If the user seems stuck or confused:
+If the user seems stuck or uncertain:
 1. Acknowledge their current situation
-2. Offer choices rather than a single solution
-3. Reference relevant sections of CURRICULUM.md or PEDAGOGY.md
+2. Offer a few clear options rather than a single solution
+3. Explain the reasoning behind each option
 4. Suggest small, concrete next steps
+
+## Reference Materials
+
+For each project, maintain a simple list of helpful resources:
+- Official documentation
+- Relevant tutorials
+- Best practice guides
+- Community resources
+
+## Project Reset
+
+Be prepared to start fresh at any point. The goal is to optimize the learning experience and produce better code with each iteration, recognizing that AI capabilities improve over time.

@@ -1,38 +1,28 @@
-# Claude Project Template
+# Claude Code Project Template
 
-This repository serves as a template for starting new projects with Claude Code assistance.
+A minimal starting point for projects using Claude Code assistance. This template focuses on building a flexible, learner-focused development experience without making assumptions about specific technologies or implementations.
 
-## Repository Structure
-
-- **[CLAUDE.md](./CLAUDE.md)**: Configuration instructions for Claude
-- **[CURRICULUM.md](./CURRICULUM.md)**: Learning modules and objectives
-- **[PEDAGOGY.md](./PEDAGOGY.md)**: Teaching methodology and assessment approach
-- **[LANGUAGE.md](./LANGUAGE.md)**: Programming specifications and coding standards
-- **[PROJECT.md](./PROJECT.md)**: Specific details about your project
-- **[TEMPLATE.md](./TEMPLATE.md)**: Instructions for setting up the template
-
-## How to Use This Repository
-
-To use this template:
+## How to Use This Template
 
 1. Clone or fork this repository
-2. Follow the setup instructions in [TEMPLATE.md](./TEMPLATE.md)
-3. Customize the configuration files for your specific project
-4. Start building with Claude Code assistance
+2. Start a new Claude Code session
+3. Let Claude guide you through the project discovery process:
+   - What you want to build
+   - What you want to learn
+   - How you prefer to learn
+   - What technologies you'd like to use
 
-## Getting Started
+## Key File
 
-```bash
-# Create virtual environment
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+- **[CLAUDE.md](./CLAUDE.md)**: Guides Claude on how to start a project with you, focusing on discovery, learning, and incremental development
 
-# Install dependencies
-pip install -e ".[dev]"
+## Project Philosophy
 
-# Run the CLI tool
-python -m src.cli
+This template is deliberately minimal to avoid making assumptions about your project. Each time you start a new project, you can adapt your approach based on current best practices and improved AI capabilities.
 
-# Run tests
-pytest
-```
+The focus is on:
+- Learning through building
+- Incremental development
+- Regular commits with clear explanations
+- Flexibility in technology choices
+- Optimizing the collaboration between you and Claude
