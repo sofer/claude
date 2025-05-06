@@ -1,26 +1,21 @@
 """
-A simple CLI tool that displays the current date and time.
+Your CLI tool description.
+
+This is a template file for your CLI application. Replace this with your
+actual implementation.
 """
-from datetime import datetime
+import click
 
 
-def get_current_time():
-    """
-    Get the current date and time.
-    
-    Returns:
-        datetime: Current date and time
-    """
-    return datetime.now()
-
-
+@click.command()
 def main():
     """
     Main entry point for the CLI tool.
+    
+    Replace this with your implementation.
     """
-    current_time = get_current_time()
-    formatted_time = current_time.strftime("%Y-%m-%d %H:%M:%S")
-    print(f"Current date and time: {formatted_time}")
+    click.echo("Hello! This is your new CLI tool.")
+    # TODO: Add your CLI implementation here
 
 
 if __name__ == "__main__":

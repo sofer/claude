@@ -1,13 +1,19 @@
 """
-Simple test for the CLI tool that displays the current date and time.
+Tests for your CLI application.
+
+This is a template file for testing your CLI application. Replace this with your
+actual tests.
 """
-from datetime import datetime
+import pytest
+from click.testing import CliRunner
 
 
-def test_get_current_time():
-    """Test that get_current_time returns a datetime object."""
-    # Import here to avoid import errors when running tests before implementation
-    from src.cli import get_current_time
+def test_cli_runs():
+    """Test that the CLI application runs without errors."""
+    # Import your main function here
+    from src.cli import main
     
-    result = get_current_time()
-    assert isinstance(result, datetime)
+    runner = CliRunner()
+    result = runner.invoke(main)
+    assert result.exit_code == 0
+    assert "Hello! This is your new CLI tool." in result.output
